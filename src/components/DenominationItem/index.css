@@ -1,0 +1,10 @@
+.button {
+  background-color: #585076;
+  color: #ffffff;
+  width: 150px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.denomination-item {
+  padding-bottom: 20px;
+}

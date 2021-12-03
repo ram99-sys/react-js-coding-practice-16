@@ -1,0 +1,84 @@
+/* Write your CSS here */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.cash-withdrawal-container {
+  background-color: #ffffff;
+  height: 100vh;
+  width: 60vw;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-container {
+  background-color: #150b3e;
+  height: 60vh;
+  width: 30vw;
+  background-size: cover;
+  border-radius: 20px;
+  padding: 20px;
+}
+.denominations-list {
+  list-style-type: none;
+}
+.name-initial {
+  font-size: 20px;
+  background-color: #c7d2fe;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+}
+.name {
+  font-size: 24px;
+  color: #c7d2fe;
+  padding-left: 10px;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+.balance-text {
+  color: #585076;
+  font-size: 20px;
+  font-weight: 600;
+}
+.rupees {
+  color: #ffffff;
+}
+.rupees-text {
+  font-size: 18px;
+  font-weight: 600;
+  color: #585076;
+}
+.withdraw-heading {
+  color: #ffffff;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.sum-description {
+  color: #585076;
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.denominations-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
